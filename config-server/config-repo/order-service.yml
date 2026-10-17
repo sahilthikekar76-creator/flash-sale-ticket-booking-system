@@ -1,0 +1,6 @@
+server:
+  port: 8083
+
+app:
+  booking:
+    max-tickets-per-user: 4
