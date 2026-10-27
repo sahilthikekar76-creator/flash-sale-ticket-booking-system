@@ -1,8 +1,9 @@
 spring:
   application:
     name: event-service
-server:
-  port: 8086
+
+  config:
+    import: "configserver:http://localhost:8888"
 
 eureka:
   client:
